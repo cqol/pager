@@ -1,0 +1,34 @@
+{
+    "name": "pager",
+    "version": "1.0.0",
+    "description": "web pager guid",
+    "keywords": [
+        "pager",
+        "guid"
+    ],
+    "author": "cqol_77",
+    "homepage": "https://github.com/cqol/pager/",
+    "license": [
+        {
+            "type": "MIT",
+            "url":  "https://github.com/cqol/pager/LICENSE.md"
+        }
+    ],
+    "main": [
+        "./dist/pager.js",
+        "./dist/pager.min.js"
+    ],
+    "ignore": [
+        "**/.*",
+        "lib",
+        "src",
+        "test",
+        "package.json",
+        "Gruntfile.js",
+        "node_modules",
+        "bower_components"
+    ],
+    "dependencies": {
+        "jquery": ">=1.7.0"
+    }
+}
