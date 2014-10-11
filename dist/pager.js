@@ -26,7 +26,7 @@ function Pager(container, config) {
         current: 1,
         prefix: 2,
         nexfix: 2,
-        skin: "blue",
+        skin: "red",
         callback: function(toindex) {}
     };
     this.fixs = $.extend({}, defalut, config);

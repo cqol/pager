@@ -5,7 +5,7 @@ function Pager(container, config) {
 		current: 1, //当前的页码
 		prefix : 2, //前缀
 		nexfix : 2, //后缀
-		skin: "blue",// 选择皮肤
+		skin: "red",//自定义样式名称
 		callback : function (toindex) {}
 	};
 	this.fixs = $.extend({}, defalut, config);
